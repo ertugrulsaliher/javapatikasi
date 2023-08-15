@@ -3,7 +3,7 @@ package Giris;
 public class KdvHesaplama {
     public static void main(String[] args) {
 
-        double UrunKdvSiz = 1342 ;
+        double UrunKdvSiz = 458 ;
         double KademeBirKdv = 0.18;
         double KademeİkiKdv = 0.08;
 

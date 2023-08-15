@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class KdvHesaplama2 {
     public static void main(String[] args) {
 
-        double UrunKdvSizTutari;
+
 
         Scanner input = new Scanner(System.in);
 
         System.out.print("Ürünün KDV'siz Tutarı : ");
-        UrunKdvSizTutari = input.nextDouble();
+        double UrunKdvSizTutari = input.nextDouble();
 
         double UrunKdvOrani = (UrunKdvSizTutari<=1000 ? 0.18 : 0.08) ;
 
