@@ -20,7 +20,7 @@ public class SinifGecme2 {
 
         } else {
 
-            System.out.println("Geçersiz Not Aralığı, Girilen Not 0 ile 100 Bir Değer Almalıdır!!");
+            System.out.println("Geçersiz Not Aralığı, Girilen Not 0 ile 100  Arasında Bir Değer Almalıdır!!");
 
             Scanner inputMatSecenek= new Scanner(System.in);
 
@@ -60,7 +60,7 @@ public class SinifGecme2 {
 
         } else {
 
-            System.out.println("Geçersiz Not Aralığı, Girilen Not 0 ile 100 Bir Değer Almalıdır!!");
+            System.out.println("Geçersiz Not Aralığı, Girilen Not 0 ile 100 Arasında Bir Değer Almalıdır!!");
 
             Scanner inputFizikSecenek= new Scanner(System.in);
 
@@ -102,7 +102,7 @@ public class SinifGecme2 {
 
         } else {
 
-            System.out.println("Geçersiz Not Aralığı, Girilen Not 0 ile 100 Bir Değer Almalıdır!!");
+            System.out.println("Geçersiz Not Aralığı, Girilen Not 0 ile Arasında 100 Bir Değer Almalıdır!!");
 
             Scanner inputTurkceSecenek= new Scanner(System.in);
 
@@ -144,7 +144,7 @@ public class SinifGecme2 {
 
         } else {
 
-            System.out.println("Geçersiz Not Aralığı, Girilen Not 0 ile 100 Bir Değer Almalıdır!!");
+            System.out.println("Geçersiz Not Aralığı, Girilen Not 0 ile 100 Arasında Bir Değer Almalıdır!!");
 
             Scanner inputKimyaSecenek= new Scanner(System.in);
 
@@ -186,7 +186,7 @@ public class SinifGecme2 {
 
         } else {
 
-            System.out.println("Geçersiz Not Aralığı, Girilen Not 0 ile 100 Bir Değer Almalıdır!!");
+            System.out.println("Geçersiz Not Aralığı, Girilen Not 0 ile 100 Arasında Bir Değer Almalıdır!!");
 
             Scanner inputMuzikSecenek= new Scanner(System.in);
 
