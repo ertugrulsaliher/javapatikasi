@@ -20,7 +20,7 @@ public class SinifGecme2 {
 
         } else {
 
-            System.out.println("Geçersiz Not Aralığı, Girilen Not 0 ile 100  Arasında Bir Değer Almalıdır!!");
+            System.out.println("Geçersiz Not Aralığı, Girilen Not 0 ile 100 Arasında Bir Değer Almalıdır!!");
 
             Scanner inputMatSecenek= new Scanner(System.in);
 
