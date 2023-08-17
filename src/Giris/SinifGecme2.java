@@ -40,14 +40,21 @@ public class SinifGecme2 {
                     ToplamDersPuani += Matematik;
                     ToplamDersSayisi++;
 
+                } else {
+
+                    System.out.println("Girilen Geçersiz Not, Ortalama Hesaplamasına Dahil Edilmeyecektir!!");
+
                 }
 
-            } else {
+            } if (Secenek == 2) {
 
                 System.out.println("Girilen Geçersiz Not Ortalama Hesaplamasına Dahil Edilmeyecektir!!");
 
-            }
+            } if (Secenek>2) {
 
+                 System.out.println("Hatalı Tuşlama Yapıldı!!");
+                 System.out.println("Girilen Geçersiz Not, Ortalama Hesaplamasına Dahil Edilmeyecektir!!");
+            }
         }
 
         System.out.print("Fizik Notu :");
@@ -80,13 +87,22 @@ public class SinifGecme2 {
                     ToplamDersPuani += Fizik;
                     ToplamDersSayisi++;
 
+                } else {
+
+                    System.out.println("Girilen Geçersiz Not, Ortalama Hesaplamasına Dahil Edilmeyecektir!!");
+
                 }
 
-            } else {
+            } if (Secenek == 2) {
 
                 System.out.println("Girilen Geçersiz Not Ortalama Hesaplamasına Dahil Edilmeyecektir!!");
 
+            } if (Secenek>2) {
+
+                System.out.println("Hatalı Tuşlama Yapıldı!!");
+                System.out.println("Girilen Geçersiz Not, Ortalama Hesaplamasına Dahil Edilmeyecektir!!");
             }
+
 
 
 
@@ -122,12 +138,20 @@ public class SinifGecme2 {
                     ToplamDersPuani += Turkce;
                     ToplamDersSayisi++;
 
+                } else {
+
+                    System.out.println("Girilen Geçersiz Not Ortalama Hesaplamasına Dahil Edilmeyecektir!!");
+
                 }
 
-            } else {
+            } if (Secenek == 2) {
 
                 System.out.println("Girilen Geçersiz Not Ortalama Hesaplamasına Dahil Edilmeyecektir!!");
 
+            } if (Secenek>2) {
+
+                System.out.println("Hatalı Tuşlama Yapıldı!!");
+                System.out.println("Girilen Geçersiz Not, Ortalama Hesaplamasına Dahil Edilmeyecektir!!");
             }
 
 
@@ -164,12 +188,20 @@ public class SinifGecme2 {
                     ToplamDersPuani += Kimya;
                     ToplamDersSayisi++;
 
+                } else {
+
+                    System.out.println("Girilen Geçersiz Not Ortalama Hesaplamasına Dahil Edilmeyecektir!!");
+
                 }
 
-            } else {
+            } if (Secenek == 2) {
 
                 System.out.println("Girilen Geçersiz Not Ortalama Hesaplamasına Dahil Edilmeyecektir!!");
 
+            } if (Secenek>2) {
+
+                System.out.println("Hatalı Tuşlama Yapıldı!!");
+                System.out.println("Girilen Geçersiz Not, Ortalama Hesaplamasına Dahil Edilmeyecektir!!");
             }
 
 
@@ -206,12 +238,20 @@ public class SinifGecme2 {
                     ToplamDersPuani += Muzik;
                     ToplamDersSayisi++;
 
+                } else {
+
+                    System.out.println("Girilen Geçersiz Not Ortalama Hesaplamasına Dahil Edilmeyecektir!!");
+
                 }
 
-            } else {
+            } if (Secenek == 2) {
 
                 System.out.println("Girilen Geçersiz Not Ortalama Hesaplamasına Dahil Edilmeyecektir!!");
 
+            } if (Secenek>2) {
+
+                System.out.println("Hatalı Tuşlama Yapıldı!!");
+                System.out.println("Girilen Geçersiz Not, Ortalama Hesaplamasına Dahil Edilmeyecektir!!");
             }
 
 
