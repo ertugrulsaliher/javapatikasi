@@ -64,14 +64,14 @@ public class UcakBileti {
                             double BiletUcretiSon = (MesafeVeYasIndirimi * 0.2);
 
                             System.out.print("Bilet Ücretiniz TL :");
-                            System.out.print(BiletUcretiSon);
+                            System.out.print(BiletUcretiSon*2);
 
                         } else if (Yas >= 12 && Yas <= 24) {
                             double MesafeVeYasIndirimi = (MesafeUcreti * 0.1);
                             double BiletUcretiSon = (MesafeVeYasIndirimi * 0.2);
 
                             System.out.print("Bilet Ücretiniz TL :");
-                            System.out.print(BiletUcretiSon);
+                            System.out.print(BiletUcretiSon*2);
 
 
                         } else if (Yas > 24 && Yas < 65) {
@@ -79,14 +79,14 @@ public class UcakBileti {
                             double BiletUcretiSon = (MesafeUcreti * 0.2);
 
                             System.out.print("Bilet Ücretiniz TL :");
-                            System.out.print(BiletUcretiSon);
+                            System.out.print(BiletUcretiSon*2);
 
                         } else if (Yas > 65) {
                             double MesafeVeYasIndirimi = (MesafeUcreti * 0.3);
                             double BiletUcretiSon = (MesafeVeYasIndirimi * 0.2);
 
                             System.out.print("Bilet Ücretiniz TL :");
-                            System.out.print(BiletUcretiSon);
+                            System.out.print(BiletUcretiSon*2);
                         }
 
                         break;
