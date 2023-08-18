@@ -33,7 +33,7 @@ public class BurcBulma {
             } else if ((Ay == 8) && (Gun > 31)) {
                 System.out.print("Ağustos ayında 31 gün vardır!!");
             } else if (Ay == 10 && Gun > 31) {
-                System.out.print("Ekim ayında 31 gün vardır!! ");
+                System.out.print("Ekim ayında 31 gün vardır!!");
             } else if (Ay == 12 && Gun > 31) {
                 System.out.print("Aralık ayında 31 gün vardır!!");
             }
