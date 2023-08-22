@@ -5,6 +5,8 @@ public class GirilenSayiyaKadarCiftSayılarıBulmaca {
 
         Scanner input = new Scanner(System.in);
 
+        /*
+
         System.out.print("Lütfen Maksimum Sayıyı Girin :");
         int MaksSayi = input.nextInt();
         int i ;
@@ -15,8 +17,27 @@ public class GirilenSayiyaKadarCiftSayılarıBulmaca {
             }
         }
 
+         */
+
+        System.out.print("Maksimum Sayıyı Girin :");
+        double MaksSayi = input.nextInt();
+
+        double UceVeDordeBolunenSayilarToplami = 0;
+        double UceVeDordeBolunenSayiAdeti = 0 ;
+
+        for (double i = 0; i<=MaksSayi; i++) {
+
+            if (i%3==0 || i%4==0){
+                UceVeDordeBolunenSayilarToplami += i;
+                UceVeDordeBolunenSayiAdeti++;
 
 
+            }
 
+
+        }
+
+        double Ortalama = (UceVeDordeBolunenSayilarToplami/UceVeDordeBolunenSayiAdeti);
+        System.out.println("Ortalama :" + Ortalama);
     }
 }
