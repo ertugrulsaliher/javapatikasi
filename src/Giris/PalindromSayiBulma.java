@@ -11,10 +11,12 @@ public class PalindromSayiBulma {
         }
         if (GirilenSayi==TersSayi) {
             System.out.println(GirilenSayi+" Sayısı bir Polindrom Sayıdır.");
+            return true;
         }else {
             System.out.println(GirilenSayi+" Bir Polindrom Sayısı değildir. ");
+            return false;
         }
-        return true;
+
 
     }
     public static void main(String[] args) {
