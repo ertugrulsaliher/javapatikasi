@@ -10,6 +10,7 @@ public class AracBilgileriDeneme {
         Mercedes.Hiz = 50;
         Mercedes.HizArtirma(50);
         Mercedes.HizArtirma(250);
+        Mercedes.HizAzaltma(250.5);
         Mercedes.AracBilgileri();
 
         Araba BMW = new Araba();

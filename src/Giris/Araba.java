@@ -22,5 +22,13 @@ public class Araba {
 
     void AracBilgileri (){
         System.out.println(Marka+"\n"+Model+"\n"+Tip+"\n"+Renk+"\n"+Hiz+" km/h");
+        if (Hiz>143&&Hiz<195) {
+            System.out.println("Hız Sınırı Geçildi!! Cezai İşlem 943 TL");
+        } else if (Hiz>=195) {
+            System.out.println("Hız Sınırı Geçildi!! Cezai İşlem 4093 TL");
+        }
     }
+
+
+
 }

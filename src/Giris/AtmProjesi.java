@@ -2,7 +2,7 @@ package Giris;
 import java.util.Scanner;
 public class AtmProjesi {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+
 
         int GirisHakki = 3;
         int Bakiye = 8500;
@@ -12,6 +12,7 @@ public class AtmProjesi {
 
 
         while (GirisHakki>0) {
+            Scanner input = new Scanner(System.in);
 
             System.out.println("** JAVA Bankasına Hoşgeldiniz **");
 
@@ -56,6 +57,10 @@ public class AtmProjesi {
                             case 3:
                                 System.out.println("Hesabınızda " + Bakiye + " TL Bulunmaktadır.");
                                 break;
+                            default:
+                                System.out.println("Hatalı Tuşlama!!!");
+                                break;
+
 
                         }
 
