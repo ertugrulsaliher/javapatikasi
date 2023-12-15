@@ -2,6 +2,15 @@ package Giris;
 
 public class AracBilgileriDeneme {
     public static void main(String[] args) {
+
+        Araba Mercedes = new Araba("Mercedes","C200 AMG","Sedan","Metalik Dağ Grisi");
+        Mercedes.Hiz = 50;
+        Mercedes.HizArtirma(205);
+
+        Mercedes.AracBilgileri();
+
+
+        /*
         Araba Mercedes = new Araba();
         Mercedes.Marka = "Mercedes-Benz";
         Mercedes.Model = "C 200 AMG";
@@ -21,5 +30,7 @@ public class AracBilgileriDeneme {
         BMW.Hiz = 25.5;
         BMW.HizArtirma(250);
         BMW.AracBilgileri();
+
+         */
     }
 }

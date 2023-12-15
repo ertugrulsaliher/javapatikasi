@@ -3,7 +3,15 @@ package Giris;
 public class Araba {
     String Marka, Model, Tip, Renk;
     double Hiz;
-    double HizLimiti = 250;
+    double HizLimiti;
+
+    Araba(String Marka, String Model, String Tip, String Renk) {
+        this.Marka = Marka;
+        this.Model = Model;
+        this.Tip = Tip;
+        this.Renk = Renk;
+        this.HizLimiti = 250;
+    }
 
     void HizArtirma (double ArtisMiktari) {
         if (ArtisMiktari+Hiz<=250) {
